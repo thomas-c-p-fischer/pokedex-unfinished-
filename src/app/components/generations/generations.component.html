@@ -1,0 +1,15 @@
+<div id="mainDiv">
+  <P id="pokGen">
+    Pokemons generations :
+  </P>
+  <hr>
+  <p id="difGen">
+    THE DIFFERENTS GENERATIONS :
+  </p>
+  <div *ngIf="results$ | async as results">
+    <p id="gens" *ngFor="let r of results.results">
+       {{r.name | uppercase}}
+     </p>
+   </div>
+ </div>
+

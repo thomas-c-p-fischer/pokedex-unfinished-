@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+#gens{
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+}
+#difGen{
+  font-family: 'Kanit', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}
+#pokGen{
+  font-family: 'Kanit', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+#mainDiv{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+hr{
+  width: 100%;
+}

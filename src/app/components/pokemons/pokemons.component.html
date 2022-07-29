@@ -1,0 +1,5 @@
+<div *ngIf="pokemon$ | async as pokemon">
+  <div>
+    <app-a-pokemon [pokemon$]="pokemon"></app-a-pokemon>
+  </div>
+</div>
